@@ -101,7 +101,7 @@ func bookTicket(userTickets int, firstName string, lastName string, email string
 	}
 
 	bookings = append(bookings, userData)
-
+	//check
 	fmt.Printf("Thanh you %v %v for booking %v tickets. You will receive a comfirmation email at %v\n", firstName, lastName, userTickets, email)
 	fmt.Printf("%v tickets remaining for %v\n", remainingTickets, conferenceName)
 }
