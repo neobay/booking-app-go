@@ -10,7 +10,7 @@ const conferenceTicket = 50
 
 var conferenceName = "Go Conference"
 var remainingTickets int = 50
-var bookings = make([]map[string]string, 10)
+var bookings = make([]map[string]string, 0)
 
 func main() {
 	greetUser()
